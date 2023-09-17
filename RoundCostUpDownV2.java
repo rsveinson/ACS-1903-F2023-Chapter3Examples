@@ -32,6 +32,9 @@ public class RoundCostUpDownV2
             actualCost = originalCost + 25;
         }// end if (non-cash payment)
         else{
+            /* since there are no longer any pennies in 
+             * Canadian currency we have to round cash payments
+             * to the nearest nickle*/
             System.out.println("cp");
             if (originalCost % 5 < 3)
                 actualCost = originalCost - originalCost%5;
