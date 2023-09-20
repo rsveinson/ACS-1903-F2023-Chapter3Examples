@@ -10,12 +10,14 @@ public class LetterGradeToNumericGrade3
     {
         String letterGrade;
         double numericGrade;
+        
         System.out.println("Please enter letter grade:");
         Scanner kb = new Scanner(System.in);
         letterGrade = kb.next();
+        
         if (letterGrade.equals("A") || letterGrade.equals("a")) 
                  numericGrade = 4.0;
-        else if (letterGrade.equals("B")) 
+        else if (letterGrade.equalsIgnoreCase("B")) 
                  numericGrade = 3.0;
         else if (letterGrade.equals("C")) 
                  numericGrade = 2.0;
@@ -23,6 +25,7 @@ public class LetterGradeToNumericGrade3
                  numericGrade = 1.0;
         else
                  numericGrade = 0.0;
+                 
         System.out.println(letterGrade+" is equivalent to "+numericGrade);
     }
 }
