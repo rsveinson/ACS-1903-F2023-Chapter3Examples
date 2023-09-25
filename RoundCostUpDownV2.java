@@ -25,6 +25,7 @@ public class RoundCostUpDownV2
         System.out.println("payment type: " + typePayment);
         System.out.println("cost: " + originalCost);
         System.out.println((typePayment.equals("cash")));
+        
         // *** calculate the new cost ***
         
         if (!(typePayment.equals("cash"))) {
