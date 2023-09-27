@@ -39,6 +39,12 @@ public class AutoIncrementAndDecrement {
         //System.out.println(m++);
         //System.out.println(m);
         
+    /* from the slide sow */
+        // n = m++ + m++;
+        // System.out.println("n = " + n +  " m = " + m);
+        
+        // n = ++m + ++m;
+        // System.out.println("n = " + n +  " m = " + m);
     /* pre auto increment used in an expressions
      * increment then add
      */
