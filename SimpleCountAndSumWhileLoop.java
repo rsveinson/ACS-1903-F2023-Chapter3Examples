@@ -11,7 +11,7 @@
 // import statements go here
 import java.util.Scanner;
 
-public class SimpleWhileLoop {
+public class SimpleCountAndSumWhileLoop {
     public static void main(String[] args) {
     // ****** Declaration of Constants *****
     
@@ -19,9 +19,6 @@ public class SimpleWhileLoop {
     
        int n = 0;       // this will act as the control variable of the loop
        
-       // counting and suminbg
-       int count = 0;
-       int sum = 0;
         
         Scanner scanner = new Scanner(System.in);
 
@@ -35,30 +32,17 @@ public class SimpleWhileLoop {
   
     // ***** Processing *****
     
-        // pre loop
-        count = 0;
-        sum = 0;
-        
         System.out.println("enter an int, 0 to end.");
         n = scanner.nextInt();
         
         while(n != 0){
             System.out.println("number = " + n);
             
-            count++;    // increment count
-            sum += n;   // sum n
-            
             // we have to updat the control variable to avoid 
             // the dreaded INFINITE LOOP
             System.out.println("enter an int, 0 to end.");
-            n = scanner.nextInt(); 
-            
-            // count++;    // increment count
-            // sum += n;   // sum n
+            n = scanner.nextInt();           
         } // end while
-        
-        System.out.println("Count: " + count);
-        System.out.println("Sum: " + sum);
   
         
     // ***** Closing Message *****
