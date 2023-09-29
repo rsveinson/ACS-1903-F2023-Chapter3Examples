@@ -34,10 +34,10 @@ public class AutoIncrementAndDecrement {
     /* stand alone auto increment and decrement
      * should be exactly the same
      */
-        //System.out.println(++m);
-        //m = 1;
-        //System.out.println(m++);
-        //System.out.println(m);
+        // System.out.println(++m);
+        // m = 1;
+        // System.out.println(m++);
+        // System.out.println(m);
         
     /* from the slide sow */
         // n = m++ + m++;
@@ -48,8 +48,8 @@ public class AutoIncrementAndDecrement {
     /* pre auto increment used in an expressions
      * increment then add
      */
-        //n = ++m + 1;        // should equal 3
-        //System.out.println("n =  " + n);
+        // n = ++m + 1;        // should equal 3
+        // System.out.println("n =  " + n);
         // System.out.println("m = " + m);
         
     /* pre auto decrement used in an expressions
@@ -72,7 +72,7 @@ public class AutoIncrementAndDecrement {
         // n = m++ - 1;        // should equal 0
         // System.out.println("n =  " + n); 
         // System.out.println("m = " + m);
-    // ***** output *****
+    // // ***** output *****
     
        
     // ***** Closing Message *****

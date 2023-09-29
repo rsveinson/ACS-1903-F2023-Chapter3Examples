@@ -8,14 +8,21 @@ public class CountLetters
     public static void main(String[] args)
     {
         String text;
+        
         System.out.println("Enter text: ");
         Scanner kb = new Scanner(System.in);
+        
         text = kb.nextLine();
         int count = 0;
+        
         for (int i=0; i<text.length(); i++){
             if (text.charAt(i) == 'a') 
                 count++;
-        }
+        }// end for
+        
+        /* note the use of the \ to print the '
+         * since ' has a special meaning
+         */
         System.out.println("The line contains "+count+" a\'s");
     }
 }

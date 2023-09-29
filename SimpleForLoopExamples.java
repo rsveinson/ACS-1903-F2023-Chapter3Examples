@@ -5,40 +5,46 @@ public class SimpleForLoopExamples
 {
     public static void main(String[] args)
     {
-        System.out.println("Simplest example");
-        for (int count = 0; count < 10; count++ )
-            System.out.println(count);
-        System.out.println("*******\n\n");
+        // System.out.println("Simplest example");
+        // for (int i = 0; i < 10; i++ )
+            // System.out.println(i);
+        // System.out.println("*******\n\n");
         
-        // simple decrementing example
-        System.out.println("Decrementing");
+        // // simple decrementing example
+        // System.out.println("Decrementing");
         
-        for (int count = 10; count > 0; count-- )
-            System.out.println(count);
-        System.out.println("*******\n\n");
+        // for (int i = 10; i > 0; i-- )
+            // System.out.println(i);
+            
+        // System.out.println("*******\n\n");
         
-        // increase by more than 1
-        System.out.println("Increasing by more than one");
+        /* now change the above so that it prints
+         * from 9 - 0
+         */
         
-        for (int count = 0; count < 20; count += 2)
-            System.out.println(count);
-        System.out.println("*******\n\n"); 
+        // // increase by more than 1
+        // System.out.println("Increasing by more than one");
         
-        // decrease by more than 1
-        System.out.println("Decreasing by more than one");
+        // for (int i = 0; i < 20; i += 2)
+            // System.out.println(i);
+            
+        // System.out.println("*******\n\n"); 
         
-        for (int count = 20; count >= 0; count -= 2)
-            System.out.println(count);
-        System.out.println("*******\n\n"); 
+        // // decrease by more than 1
+        // System.out.println("Decreasing by more than one");
         
-        // variable lower and upper limit
-        System.out.println("Variable start and end values");
+        // for (int i = 20; i >= 0; i -= 2)
+            // System.out.println(i);
+        // System.out.println("*******\n\n"); 
         
-        int low = 5;
-        int upper = 15;
+        // // variable lower and upper limit
+        // System.out.println("Variable start and end values");
         
-        for (int count = low; count < upper; count++ )
-            System.out.println(count);
+        // int low = 5;
+        // int upper = 15;
+        
+        // for (int i = low; i < upper; i++ )
+            // System.out.println(i);
         System.out.println("*******\n\n");        
         
 
