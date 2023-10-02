@@ -31,6 +31,7 @@ public class RoundCostUpDownV2
         if (!(typePayment.equals("cash"))) {
             System.out.println("ncp");
             actualCost = originalCost + 25;
+            
         }// end if (non-cash payment)
         else{
             /* since there are no longer any pennies in 
