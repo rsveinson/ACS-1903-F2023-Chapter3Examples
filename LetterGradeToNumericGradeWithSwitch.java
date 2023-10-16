@@ -20,9 +20,10 @@ public class LetterGradeToNumericGradeWithSwitch
         switch (grade) {
             case "a":
             case "A": nGrade = 4.0;
+                        System.out.println("well done");
                 break;
-            case "b":
-            case "B": nGrade = 3.0;
+            case "b": case "B": 
+                        nGrade = 3.0;
                 break;
             case "C": nGrade = 2.0;
                 break;

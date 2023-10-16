@@ -12,7 +12,8 @@ public class DoWhileExample02{
         
         Scanner scanner = new Scanner(System.in);
         
-        n = Integer.parseInt(JOptionPane.showInputDialog("enter a number"));
+        System.out.println("enter a number");
+        n = scanner.nextInt();
         
         do{
             sum += n % 10;      // add the rightmost digit of n to sum
